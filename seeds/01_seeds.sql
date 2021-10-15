@@ -13,13 +13,13 @@ INSERT INTO properties
   cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, 
   country, street, city, province, post_code, active)
 VALUES
-  (1, 'The Black Bear Chalet', 'description', 'https://www.airbnb.com/rooms/45754194/photos/', 'https://www.airbnb.com/rooms/45754194/photos/', 
+  (1, 'The Black Bear Chalet', 'description', 'https://media-cdn.tripadvisor.com/media/vr-splice-j/07/95/fd/ce.jpg', 'https://media-cdn.tripadvisor.com/media/vr-splice-j/07/95/fd/ce.jpg', 
   800, 3, 3, 3, 
   'Canada', '399 Banff Ave', 'Banff', 'Alberta', 'T1L1B8', true),
-  (2, 'River Studio', 'description', 'https://www.airbnb.com/rooms/26167925/photos/', 'https://www.airbnb.com/rooms/26167925/photos/', 
+  (2, 'River Studio', 'description', 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-26167925/original/62fb82ec-ba73-48c3-9ecd-8cda96a59ab0.jpeg?im_w=1200', 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-26167925/original/62fb82ec-ba73-48c3-9ecd-8cda96a59ab0.jpeg?im_w=1200', 
   245, 2, 1, 1, 
   'Indonesia', '39 Pererenan', 'Bali', 'Bali','80351', true),
-  (3, 'The Clove House', 'description', 'https://www.airbnb.com/rooms/27711950/photos', 'https://www.airbnb.com/rooms/27711950/photos/', 
+  (3, 'The Clove House', 'description', 'https://a0.muscache.com/im/pictures/a03ff1b9-e0d1-416a-a86d-0ec9b03e4bc3.jpg?im_w=1440', 'https://a0.muscache.com/im/pictures/a03ff1b9-e0d1-416a-a86d-0ec9b03e4bc3.jpg?im_w=1440', 
   114, 2, 1, 1, 
   'Indonesia', '12 Banjar', 'Bali', 'Bali', '81152', true);
 
