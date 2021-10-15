@@ -1,10 +1,10 @@
 -- USERS --
 INSERT INTO users (name, email, password)
 VALUES 
-  ('Astarina Maulida', 'astarina.maulida@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-  ('Marco Salman Gamal', 'marco.salman@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-  ('Kioko Khaleesha', 'kioko.khaleesha@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-  ('Sora Eugenie', 'sora.eugenie@yahoo.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+  ('Astarina Maulida', 'astarina.maulida@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+  ('Marco Salman Gamal', 'marco.salman@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+  ('Kioko Khaleesha', 'kioko.khaleesha@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+  ('Sora Eugenie', 'sora.eugenie@yahoo.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 
 -- PROPERTIES --

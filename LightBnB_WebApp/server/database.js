@@ -45,7 +45,6 @@ exports.getUserWithEmail = getUserWithEmail;
  */
  const getUserWithId = function(id) {
   // return Promise.resolve(users[id]);
-
   return pool
     .query(`
       SELECT * FROM users
@@ -68,7 +67,6 @@ exports.getUserWithId = getUserWithId;
   // user.id = userId;
   // users[userId] = user;
   // return Promise.resolve(user);
-
   return pool
   .query(`
     INSERT INTO users 
@@ -90,7 +88,16 @@ exports.addUser = addUser;
  * @return {Promise<[{}]>} A promise to the reservations.
  */
 const getAllReservations = function(guest_id, limit = 10) {
-  return getAllProperties(null, 2);
+  // return getAllProperties(null, 10);
+  return pool
+  .query(`
+    SELECT * FROM reservations
+    WHERE guest_id = $1 AND end_date < NOW()::DATE
+    LIMIT $2;`, [guest_id, limit])
+  .then((res) => res.rows[0] || null)
+  .catch((err) => 
+  console.log(err.message)
+  );
 }
 exports.getAllReservations = getAllReservations;
 
